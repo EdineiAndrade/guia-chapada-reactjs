@@ -14,7 +14,7 @@
 }
 
 #page-create-location header a {
-  color: var(--title-color);
+  color: rgb(58, 226, 43) ;
   font-weight: bold;
   text-decoration: none;
 
@@ -31,7 +31,7 @@
   margin: 80px auto;
   padding: 64px;
   max-width: 730px;
-  background: #FFF;
+  background: rgba(186, 215, 216, 0.801);
   border-radius: 8px;
 
   display: flex;
@@ -63,7 +63,7 @@
 #page-create-location form legend span {
   font-size: 14px;
   font-weight: normal;
-  color: #034AAD;
+  color: #1b1815;
 }
 
 #page-create-location form .field-group {
@@ -148,9 +148,9 @@
 #page-create-location form button {
   width: 260px;
   height: 56px;
-  background: var(--primary-color);
+  background: rgba(15, 159, 236, 0.452);
   border-radius: 8px;
-  color: #FFF;
+  color: rgba(1, 12, 17, 0.452);
   font-weight: bold;
   font-size: 16px;
   border: 0;
@@ -161,7 +161,7 @@
 }
 
 #page-create-location form button:hover {
-  background: #79ab7f;
+  background: #328b08;
 }
 
 .items-grid {
