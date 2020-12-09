@@ -80,6 +80,27 @@ const CreateLocation: React.FC = () =>{
                     <h2>Itens coletados</h2>
                     <span>Você pode marcar um ou mais itens</span>
                 </legend>
+                <ul className="items-grid">
+                    <li>
+                        <img src="https://github.com/aluiziodeveloper/api-node-coleta-seletiva/blob/main/uploads/papel.svg" alt="Papel"/>
+                    </li>
+                    <li className="selected">
+                        <img src="https://github.com/aluiziodeveloper/api-node-coleta-seletiva/blob/main/uploads/bateria.svg" alt="Bateria"/>
+                    </li>
+                    <li>
+                        <img src="https://github.com/aluiziodeveloper/api-node-coleta-seletiva/blob/main/uploads/eletronico.svg" alt="Eletrônico"/>
+                    </li>                    
+                    <li>
+                        <img src="https://github.com/aluiziodeveloper/api-node-coleta-seletiva/blob/main/uploads/oleo.svg" alt="Óleo"/>
+                    </li>
+                    <li>
+                        <img src="https://github.com/aluiziodeveloper/api-node-coleta-seletiva/blob/main/uploads/organico.svg" alt="Orgânico"/>
+                    </li>
+                    <li>
+                        <img src="https://github.com/aluiziodeveloper/api-node-coleta-seletiva/blob/main/uploads/vidro.svg" alt="Vidro"/>
+                    </li>
+
+                </ul>           
             </fieldset>
             <button type="submit">
                 Cadastrar local de coleta
