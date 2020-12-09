@@ -4,6 +4,12 @@ import {Link} from 'react-router-dom';
 
 import logo from '../../images/logo.svg';
 import './styless.css';
+import bateria from '../../images/materiais/bateria.svg'
+import eletronico from '../../images/materiais/eletronico.svg'
+import oleo from '../../images/materiais/oleo.svg'
+import papel from '../../images/materiais/papel.svg'
+import organico from '../../images/materiais/organico.svg'
+import vidro from '../../images/materiais/vidro.svg'
 
 const CreateLocation: React.FC = () =>{
     return(        
@@ -13,7 +19,7 @@ const CreateLocation: React.FC = () =>{
                  <img src={logo} alt="coleta seletiva"/>
                  <Link to="/">                                         
                         <FiArrowLeft/>
-                        Voltar para home                  
+                        <a>Voltar para home </a>                 
                  </Link> 
             </header>
             <form>
@@ -82,22 +88,22 @@ const CreateLocation: React.FC = () =>{
                 </legend>
                 <ul className="items-grid">
                     <li>
-                        <img src="https://github.com/aluiziodeveloper/api-node-coleta-seletiva/blob/main/uploads/papel.svg" alt="Papel"/>
+                        <img src={papel} alt="Papel"/>
                     </li>
                     <li className="selected">
-                        <img src="https://github.com/aluiziodeveloper/api-node-coleta-seletiva/blob/main/uploads/bateria.svg" alt="Bateria"/>
+                        <img src= {bateria} alt="Bateria"/>
                     </li>
                     <li>
-                        <img src="https://github.com/aluiziodeveloper/api-node-coleta-seletiva/blob/main/uploads/eletronico.svg" alt="Eletrônico"/>
+                        <img src={eletronico} alt="Eletrônico"/>
                     </li>                    
                     <li>
-                        <img src="https://github.com/aluiziodeveloper/api-node-coleta-seletiva/blob/main/uploads/oleo.svg" alt="Óleo"/>
+                        <img src={oleo} alt="Óleo"/>
                     </li>
                     <li>
-                        <img src="https://github.com/aluiziodeveloper/api-node-coleta-seletiva/blob/main/uploads/organico.svg" alt="Orgânico"/>
+                        <img src= {organico} alt="Orgânico"/>
                     </li>
                     <li>
-                        <img src="https://github.com/aluiziodeveloper/api-node-coleta-seletiva/blob/main/uploads/vidro.svg" alt="Vidro"/>
+                        <img src= {vidro} alt="Vidro"/>
                     </li>
 
                 </ul>           

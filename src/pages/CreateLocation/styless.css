@@ -14,7 +14,7 @@
 }
 
 #page-create-location header a {
-  color: rgb(58, 226, 43) ;
+  color: rgb(38, 91, 207) ;
   font-weight: bold;
   text-decoration: none;
 
@@ -31,7 +31,7 @@
   margin: 80px auto;
   padding: 64px;
   max-width: 730px;
-  background: rgba(186, 215, 216, 0.801);
+  background: rgba(235, 159, 89, 0.801);
   border-radius: 8px;
 
   display: flex;
@@ -148,7 +148,7 @@
 #page-create-location form button {
   width: 260px;
   height: 56px;
-  background: rgba(15, 159, 236, 0.452);
+  background: rgba(78, 100, 109, 0.452);
   border-radius: 8px;
   color: rgba(1, 12, 17, 0.452);
   font-weight: bold;
@@ -161,7 +161,7 @@
 }
 
 #page-create-location form button:hover {
-  background: #328b08;
+  background: #0df589;
 }
 
 .items-grid {
