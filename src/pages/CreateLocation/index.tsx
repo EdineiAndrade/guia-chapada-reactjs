@@ -86,6 +86,7 @@ const CreateLocation: React.FC = () =>{
                     <h2>Itens coletados</h2>
                     <span>Você pode marcar um ou mais itens</span>
                 </legend>
+<<<<<<< HEAD
                 <ul className="items-grid">
                     <li>
                         <img src={papel} alt="Papel"/>
@@ -107,6 +108,8 @@ const CreateLocation: React.FC = () =>{
                     </li>
 
                 </ul>           
+=======
+>>>>>>> parent of 6b0add5... Materiais
             </fieldset>
             <button type="submit">
                 Cadastrar local de coleta
